@@ -4,6 +4,7 @@
 
 def word_count(phrase):
     words = phrase.split(" ")
+    words=count[word];
     words = filter(None, words)
     count = {}
     for word in words:
